@@ -29,7 +29,7 @@ public class MoonInfoMod implements ClientModInitializer {
         icon = new PhaseIcon();
         address = "";
         isConnect = false;
-        sendInfo = new SendInfo("http://yanva.pw/plapi/moonphase");
+        sendInfo = new SendInfo("");
         last_time = System.currentTimeMillis();
         try {
             config.load();
